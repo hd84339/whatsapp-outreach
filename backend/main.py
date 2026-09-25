@@ -30,6 +30,7 @@ Base = declarative_base()
 # Contact Model
 # -------------------------
 
+
 class Contact(Base):
     __tablename__ = "contacts"
 
